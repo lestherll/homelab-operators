@@ -1,0 +1,33 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage output
+*.test
+*.out
+cover.html
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Keep generated deepcopy sources under version control
+!**/zz_generated.*
+
+# Local overrides
+.env
+*.local.yaml
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
